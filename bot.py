@@ -50,6 +50,8 @@ def send_telegram(message):
     })
 
 def main():
+    send_telegram("✅ Бот работает и проверяет трансферы!")
+
     try:
         posts = get_posts()
     except Exception as e:
